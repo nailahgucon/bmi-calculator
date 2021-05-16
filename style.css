@@ -1,0 +1,60 @@
+body {
+  font-family: "Monaco", Monospace;
+  background-color: #333D79FF;
+  color: #FAEBEFFF;
+  text-align: center;
+}
+
+h1 {
+  color: #FAEBEFFF;
+}
+
+input {
+  color: rgb(84, 92, 141);
+  font-size: 2em;
+}
+
+.btn,
+.btn:hover {
+  background-color: rgb(104, 115, 177);
+  color: #FAEBEFFF;
+  border-color: #1b2021;
+  font-size: 2em;
+}
+
+.btn:hover {
+  background-color: rgb(84, 92, 141);
+}
+
+.column {
+  float: left;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+p{
+  font-size: 2em;
+}
+
+#defBMI{
+  font-size: 0.6em;
+  width: 80%;
+  margin: 0 auto;
+  background-color: rgb(104, 115, 177);
+  padding: 0.2em;
+  border: outset;
+}
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 1024px) {
+  .column {
+    width: 100%;
+  }
+  div{
+    font-size: 0.9em;
+  }
+}

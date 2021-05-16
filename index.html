@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="style.css" />
+    <script src="./script.js" defer></script>
+  </head>
+
+  <body class="container-fluid">
+    <h1>BMI Calculator</h1>
+    <hr />
+    <div id="defBMI">
+    <p><b>What is BMI and how is it calculated?</b></p>
+    <p>Body mass index (BMI) is a person’s weight in kilograms divided by the square of height in meters. 
+      BMI is an inexpensive and easy screening method for weight category — underweight, healthy weight, 
+      overweight, and obesity.</p>
+    </div>
+    <br>
+    <div class="row">
+    <div class="col-xs-6 column">
+    <div>
+      <p>Height in Centimeters(cm)</p>
+      <input id="height" type="number" class="well btn-block text-center" />
+    </div>
+    <div>
+      <p>Weight in Kilograms(kg)</p>
+      <input id="weight" type="number" class="well btn-block text-center" />
+    </div>
+    <div>
+      <button type="button" id="btn" class="btn btn-block">
+        Calculate your BMI
+      </button>
+    </div>
+    <br>
+    <p id="output"></p>
+    <p id="output2"></p>
+    </div>
+    <div class="col-xs-6 column">
+      <img src="images/BMI_chart.png" class="img-responsive">
+    </div>
+  </div>
+  </body>
+</html>
